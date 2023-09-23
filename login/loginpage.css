@@ -1,0 +1,85 @@
+/* Apply the background gradient */
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #0d0033, #3b003f);
+}
+
+/* Style the menu container */
+.menu {
+  margin-top: 5%;
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the logo */
+.title img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the form */
+form {
+  margin-top: 30px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+td {
+  padding: 10px;
+  color: #4e2a84;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: #f0f0f0;
+  color: #333333;
+}
+
+/* Style the login button */
+.button.login {
+  background-color: #4e2a84;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button.login:hover {
+  background-color: #7c4dff;
+}
+
+/* Style the register button */
+.button.register {
+  background-color: transparent;
+  color: #4e2a84;
+  border: 1px solid #4e2a84;
+  border-radius: 3px;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.button.register:hover {
+  background-color: #4e2a84;
+  color: #ffffff;
+}
+
+/* Style the button holder container */
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

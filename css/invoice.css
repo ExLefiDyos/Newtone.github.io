@@ -1,0 +1,98 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(to right, #0d0033, #3b003f);
+}
+
+table,
+tr,
+td {
+  padding-bottom: 10px;
+  height: 30px;
+}
+
+table {
+  border: 1px solid #dee2e6;
+  padding: 50px;
+  border-radius: 25px;
+  width: 75%;
+  background-color: #fff;
+  margin: 0 auto;
+}
+
+.menu {
+  margin-top: 5%;
+}
+
+.menu h2 {
+  color: #17a2b8;
+  margin: 30px;
+}
+
+p {
+  color: #343a40;
+  margin: 0;
+}
+
+hr.order {
+  border-top: 1px solid #17a2b8;
+}
+
+tr.items {
+  height: 125px;
+}
+
+tr.grand-total {
+  height: 60px;
+}
+
+tr.order-status {
+  height: 60px;
+}
+
+td.total {
+  font-weight: bold;
+}
+
+p.grand-total {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+hr.bottom-line {
+  margin-bottom: 25px;
+  width: 40%;
+  margin-right: 70%;
+}
+
+input.button-r {
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+input.button-order {
+  background-color: #17a2b8;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+input.button-order:hover,
+input.button-r:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
